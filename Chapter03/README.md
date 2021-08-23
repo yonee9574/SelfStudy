@@ -76,6 +76,7 @@ HTML5 라고 알려주는 것이다.
 이상하게 적용이 된다.
 
 왜 그럴까 찾아 보았다. 
+ 
 ![image-20210824051324151](https://user-images.githubusercontent.com/81904356/130521888-554e78b2-96d6-4d9f-8bbe-f3c0008e8b3a.png)
 ![image-20210824051356374](https://user-images.githubusercontent.com/81904356/130521920-ab881276-c270-488c-9e23-f16c9304821f.png)
 
