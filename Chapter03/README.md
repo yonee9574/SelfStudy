@@ -47,8 +47,7 @@ HTML 의 기본구조는
 예 ) <h1> 안녕하세요</h1>
 
 닫아주지 않는다면.
-
-![image-20210824052906086](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210824052906086.png)
+![image-20210824052906086](https://user-images.githubusercontent.com/81904356/130521798-92a37f75-17be-4524-9d81-03fbe8d256a2.png)
 
 전체적으로 닫아주지않은 코드가 적용되어버린다.
 
@@ -70,17 +69,15 @@ HTML5 라고 알려주는 것이다.
 
 **웹 문서가 끝이라는 것을 뜻하는 내용이기 때문이다.** 
 
-그렇다면 이 뒤에 태그를 적용해도 아무렇지 않을까? 
+그렇다면 이 뒤에 내용을 더 해도 아무렇지 않을까? 
 
-![image-20210824051123705](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210824051123705.png)
+![image-20210824051123705](https://user-images.githubusercontent.com/81904356/130521874-4f888d1b-f460-421e-b352-a381af4df13a.png)
 
 이상하게 적용이 된다.
 
 왜 그럴까 찾아 보았다. 
-
-![image-20210824051324151](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210824051324151.png)
-
-![image-20210824051356374](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210824051356374.png)
+![image-20210824051324151](https://user-images.githubusercontent.com/81904356/130521888-554e78b2-96d6-4d9f-8bbe-f3c0008e8b3a.png)
+![image-20210824051356374](https://user-images.githubusercontent.com/81904356/130521920-ab881276-c270-488c-9e23-f16c9304821f.png)
 
 이 외에도 검색을 수없이 하였지만... 명쾌한 대답을 얻지는 못했다. 
 
