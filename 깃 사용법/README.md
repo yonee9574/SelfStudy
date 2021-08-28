@@ -43,7 +43,9 @@ Origin은 내가 깃을 사용할 때에는 어떤 리모트 서버에 변경 �
 https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95
 
 방법은 총 2가지
+
 ![image-20210828165126094](https://user-images.githubusercontent.com/81904356/131211435-63dff700-6ba9-4f97-8fe4-49ee2efc6308.png)
+
 ![image-20210828165135202](https://user-images.githubusercontent.com/81904356/131211436-71346d38-5403-41aa-b811-4e8397332fe6.png)
 
 나는 방법2가 맞았다.  즉 마스터 브런치가 존재하지 않아서 생긴문제 
