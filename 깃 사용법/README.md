@@ -78,7 +78,7 @@ git init 을 입력한다.
 
 ## 3. git status
 
-나는 짧지만 정말 많이 썻다. ( 내가 잘 add를 했나 한글자만 바뀌어도 업데이트를 해줘도 되는가 테스트 때문에)
+나는 쓴것은 짧지만 정말 많이 썻다. ( 내가 잘 add를 했나 한글자만 바뀌어도 업데이트를 해줘도 되는가 테스트 때문에)
 
 ![image-20210828191232363](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210828191232363.png)
 
