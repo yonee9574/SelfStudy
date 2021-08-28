@@ -54,15 +54,18 @@ Origin은 내가 깃을 사용할 때에는 어떤 리모트 서버에 변경 �
 
 나는 git bash를 이용한다.
 
-![image-20210828185821272](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210828185821272.png)
+![image-20210828185821272](https://user-images.githubusercontent.com/81904356/131215021-91eb5a0b-4e23-4975-b0eb-ba65aeef6651.png)
+
 
 (이클립스)
 
-![image-20210828185906217](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210828185906217.png)
+![image-20210828185906217](https://user-images.githubusercontent.com/81904356/131215032-270f9953-f38d-4837-b087-a798d7a04dbf.png)
+
 
 (Vscode)
 
-![image-20210828190700884](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210828190700884.png)
+![image-20210828190700884](https://user-images.githubusercontent.com/81904356/131215035-194dcc46-791a-443a-83c8-28c2816cc6f8.png)
+
 
 (Git Bash) , (Git GUI)
 
@@ -80,7 +83,7 @@ git init 을 입력한다.
 
 나는 짧지만 정말 많이 썻다. ( 내가 잘 add를 했나 한글자만 바뀌어도 업데이트를 해줘도 되는가 테스트 때문에)
 
-![image-20210828191232363](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210828191232363.png)
+![image-20210828191232363](https://user-images.githubusercontent.com/81904356/131215043-19011ccb-a60c-408a-8cfe-14472987e25a.png)
 
 modified(수정된)을 보면 어떤 경로의 어떤 파일이 수정이 되었음을 알려주고 
 
@@ -88,7 +91,7 @@ modified(수정된)을 보면 어떤 경로의 어떤 파일이 수정이 되었
 
 ## 4. git add
 
-![image-20210828191530931](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210828191530931.png)
+![image-20210828191530931](https://user-images.githubusercontent.com/81904356/131215045-5fe02057-aa79-4ba9-aaa4-0ed4c02bd6b5.png)
 
 git add 를 해주면 이렇게 초록색이 되며 커밋을 할 준비가 되었다고 표시가 된다.
 
