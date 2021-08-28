@@ -29,7 +29,26 @@ Origin은 내가 깃을 사용할 때에는 어떤 리모트 서버에 변경 �
 이 Master 브랜치는 메인 브랜치 역할을 한다.
 그 후 거기서 작업을 한 후 나중에 다시 Master로 합치는것이다.
 
+# 깃 업로드 방법
 
+
+
+# 오류 해결법
+
+
+
+![image-20210828164930817](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210828164930817.png)
+
+참고 블로그
+https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95
+
+방법은 총 2가지
+![image-20210828165126094](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210828165126094.png)
+
+![image-20210828165135202](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210828165135202.png)
+
+나는 방법2가 맞았다.  즉 마스터 브런치가 존재하지 않아서 생긴문제 
+없던 브런치로 업로드 할려니 당연히 오류가 발생함
 
 
 
