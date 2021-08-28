@@ -108,7 +108,7 @@ git commit -m "내용"
 
 ![image-20210828164930817](https://user-images.githubusercontent.com/81904356/131211420-05bc7250-2727-42ea-a13d-8b0d497a6a9e.png)
 
-참고 블로그
+참고 자료
 https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95
 
 방법은 총 2가지
