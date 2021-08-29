@@ -35,7 +35,7 @@
 박스 모델은 "콘텐츠 영역" , "패딩 (박스와 콘텐츠 영역 사이의 여백)" , 테두리(border)
 마진(margin / 여러 박스 모델 사이의 여백 ) 등 으로 요소가 구성된다.
 
-![image-20210829205108061](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210829205108061.png)
+![image-20210829205108061](https://user-images.githubusercontent.com/81904356/131251439-1a136141-d208-45b5-8c8a-236052bbdecc.png)
 
 **+ 박스 모델은 상하좌우 4개의 방향이 있어서 테두리 , 마진 , 패딩 등을 지정할 때 한꺼번에 똑같이 지정하거나 모두 다르게 지정이 가능하다 그렇기 때문에 박스 모델의 4개의 방향을 가리키는 예약어를 미리 알아 두는 것이 좋다. Top - > right -> bottom -> left 처럼 시계 방향의 순서이다.**
 
