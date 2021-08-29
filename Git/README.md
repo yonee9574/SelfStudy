@@ -46,6 +46,7 @@ https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%
 
 ![image-20210828165126094](https://user-images.githubusercontent.com/81904356/131211435-63dff700-6ba9-4f97-8fe4-49ee2efc6308.png)
 
+
 ![image-20210828165135202](https://user-images.githubusercontent.com/81904356/131211436-71346d38-5403-41aa-b811-4e8397332fe6.png)
 
 나는 방법2가 맞았다.  즉 마스터 브런치가 존재하지 않아서 생긴문제 
@@ -55,36 +56,37 @@ https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%
 
 ## main 과 " 다른 브렌치 " 가 merge 가 안될때
 
-![image-20210830010305453](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210830010305453.png)
+![image-20210830010305453](https://user-images.githubusercontent.com/81904356/131257622-49e78a75-d058-4959-a1c0-c9f3a4f94cea.png)
 
-![image-20210830010322213](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210830010322213.png)
+
+![image-20210830010322213](https://user-images.githubusercontent.com/81904356/131257623-b6764c66-a898-46e2-aaa5-407b487369c1.png)
 
 ## 오류가 난 방법
 
-\1. 폴더 생성 후 파일 넣기
-\2. git bash 실행 및 cd [경로] 잡아주기
-\3. git status 입력 후 파일 상태 보기 Untracked files 확인
-\4. git add . 입력해 모든파일 (changes to be committed) 상태 만들어주기
-\5. git commit -m "설명"
-\6. repository 생성
-\7. git remote add "test" "repository url"
-\8. git push test master
+1. 폴더 생성 후 파일 넣기
+2. git bash 실행 및 cd [경로] 잡아주기
+3. git status 입력 후 파일 상태 보기 Untracked files 확인
+4. git add . 입력해 모든파일 (changes to be committed) 상태 만들어주기
+5. git commit -m "설명"
+6. repository 생성
+7. git remote add "test" "repository url"
+8. git push test master
 
 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-![image-20210830011723778](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210830011723778.png)
+![image-20210830011734393](https://user-images.githubusercontent.com/81904356/131257624-8791ab5e-1b52-4874-b5b2-df38d502674f.png)
 
-![image-20210830011734393](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210830011734393.png)
+![image-20210830011723778](https://user-images.githubusercontent.com/81904356/131257628-30a89caf-3c68-4f88-8062-7dd4c0073124.png)
 
 ## 오류 해결 방법
 
-\1.epository 생성
-\2.git clone "repository url"
-\3.repository 폴더 안 파일 넣기
-\4.git status 로 확인
-\5.git add . 입력해 파일 커밋준비상태 만들어주기
-\6.git commit -m "설명"
-\7.git remote add "test" "repository url"
-\8.git push test master
+1. epository 생성
+2. git clone "repository url"
+3. repository 폴더 안 파일 넣기
+4. git status 로 확인
+5. git add . 입력해 파일 커밋준비상태 만들어주기
+6. git commit -m "설명"
+7. git remote add "test" "repository url"
+8. git push test master
