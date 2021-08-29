@@ -28,5 +28,4 @@
 
 그리드 레이아웃을 기본으로 하여 새로 등장한 개념
 
-![image-20210829220454731](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210829220454731.png)
-
+![image-20210829220454731](https://user-images.githubusercontent.com/81904356/131251490-82a31e09-c39a-4706-af33-13c1b77617c5.png)
