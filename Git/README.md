@@ -46,6 +46,7 @@ https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%
 
 ![image-20210828165126094](https://user-images.githubusercontent.com/81904356/131211435-63dff700-6ba9-4f97-8fe4-49ee2efc6308.png)
 
+
 ![image-20210828165135202](https://user-images.githubusercontent.com/81904356/131211436-71346d38-5403-41aa-b811-4e8397332fe6.png)
 
 나는 방법2가 맞았다.  즉 마스터 브런치가 존재하지 않아서 생긴문제 
@@ -56,6 +57,7 @@ https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%
 ## main 과 " 다른 브렌치 " 가 merge 가 안될때
 
 ![image-20210830010305453](https://user-images.githubusercontent.com/81904356/131257622-49e78a75-d058-4959-a1c0-c9f3a4f94cea.png)
+
 
 ![image-20210830010322213](https://user-images.githubusercontent.com/81904356/131257623-b6764c66-a898-46e2-aaa5-407b487369c1.png)
 
