@@ -55,9 +55,9 @@ https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%
 
 ## main 과 " 다른 브렌치 " 가 merge 가 안될때
 
-![image-20210830010305453](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210830010305453.png)
+![image-20210830010305453](https://user-images.githubusercontent.com/81904356/131257622-49e78a75-d058-4959-a1c0-c9f3a4f94cea.png)
 
-![image-20210830010322213](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210830010322213.png)
+![image-20210830010322213](https://user-images.githubusercontent.com/81904356/131257623-b6764c66-a898-46e2-aaa5-407b487369c1.png)
 
 ## 오류가 난 방법
 
@@ -74,9 +74,9 @@ https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-![image-20210830011723778](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210830011723778.png)
+![image-20210830011734393](https://user-images.githubusercontent.com/81904356/131257624-8791ab5e-1b52-4874-b5b2-df38d502674f.png)
 
-![image-20210830011734393](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210830011734393.png)
+![image-20210830011723778](https://user-images.githubusercontent.com/81904356/131257628-30a89caf-3c68-4f88-8062-7dd4c0073124.png)
 
 ## 오류 해결 방법
 
