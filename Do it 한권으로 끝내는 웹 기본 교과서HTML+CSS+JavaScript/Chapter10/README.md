@@ -54,5 +54,4 @@ h1 + p :  h1의 형제인 모든 p 요소
 
 ## 속성 선택자
 
-![image-20210829214357731](C:\Users\yl\AppData\Roaming\Typora\typora-user-images\image-20210829214357731.png)
-
+![image-20210829214357731](https://user-images.githubusercontent.com/81904356/131251466-432af1f3-543c-4746-bfd4-927c119e0d75.png)
