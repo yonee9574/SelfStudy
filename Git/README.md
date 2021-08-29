@@ -82,11 +82,11 @@ https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%
 
 ## 오류 해결 방법
 
-1.epository 생성
-2.git clone "repository url"
-3.repository 폴더 안 파일 넣기
-4.git status 로 확인
-5.git add . 입력해 파일 커밋준비상태 만들어주기
-6.git commit -m "설명"
-7.git remote add "test" "repository url"
-8.git push test master
+1. epository 생성
+2. git clone "repository url"
+3. repository 폴더 안 파일 넣기
+4. git status 로 확인
+5. git add . 입력해 파일 커밋준비상태 만들어주기
+6. git commit -m "설명"
+7. git remote add "test" "repository url"
+8. git push test master
