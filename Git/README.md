@@ -63,14 +63,14 @@ https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%
 
 ## 오류가 난 방법
 
-\1. 폴더 생성 후 파일 넣기
-\2. git bash 실행 및 cd [경로] 잡아주기
-\3. git status 입력 후 파일 상태 보기 Untracked files 확인
-\4. git add . 입력해 모든파일 (changes to be committed) 상태 만들어주기
-\5. git commit -m "설명"
-\6. repository 생성
-\7. git remote add "test" "repository url"
-\8. git push test master
+1. 폴더 생성 후 파일 넣기
+2. git bash 실행 및 cd [경로] 잡아주기
+3. git status 입력 후 파일 상태 보기 Untracked files 확인
+4. git add . 입력해 모든파일 (changes to be committed) 상태 만들어주기
+5. git commit -m "설명"
+6. repository 생성
+7. git remote add "test" "repository url"
+8. git push test master
 
 
 
@@ -82,11 +82,11 @@ https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%
 
 ## 오류 해결 방법
 
-\1.epository 생성
-\2.git clone "repository url"
-\3.repository 폴더 안 파일 넣기
-\4.git status 로 확인
-\5.git add . 입력해 파일 커밋준비상태 만들어주기
-\6.git commit -m "설명"
-\7.git remote add "test" "repository url"
-\8.git push test master
+1.epository 생성
+2.git clone "repository url"
+3.repository 폴더 안 파일 넣기
+4.git status 로 확인
+5.git add . 입력해 파일 커밋준비상태 만들어주기
+6.git commit -m "설명"
+7.git remote add "test" "repository url"
+8.git push test master
