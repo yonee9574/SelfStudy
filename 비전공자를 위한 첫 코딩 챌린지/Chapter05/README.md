@@ -2,7 +2,8 @@
 
 ## 태그의 부모 자식 관계
 
-![image-20210902143134268](https://github.com/yonee9574/save-image-repo.git/img/image-20210902143134268.png)
+![image-20210902143134268](https://user-images.githubusercontent.com/81904356/131886388-11ba2a69-6bfb-4f1f-8f3a-39fe3ab34c81.png)
+
 
 웹페이지는 '트리구조' 로 구성되어 보인다.
 
@@ -40,7 +41,8 @@ ol = 부모 / li = 자식
 
 이 정보는 사용자가 검색할 때 결과를 빠르고 정확하게 보여주는데 사용
 
-## ![image-20210902144836431](https://github.com/yonee9574/save-image-repo.git/img/image-20210902144836431.png)
+## ![image-20210902144836431](https://user-images.githubusercontent.com/81904356/131886476-81be3f04-937a-43ef-b980-c2c90066fd7d.png)
+
 
 ## 검색 엔진 최적화
 
@@ -87,7 +89,8 @@ Search Engine Optimization 의 약자 SEO 라고도 부른다.
 
 이용하여 정보를 더 효과적으로 불러오고 읽을 수 있습니다.
 
-![image-20210902150441595](https://github.com/yonee9574/save-image-repo.git/img/image-20210902150441595.png)
+![image-20210902150441595](https://user-images.githubusercontent.com/81904356/131886501-fd103054-9341-4992-bfc0-6a30a117d87b.png)
+
 
 
 
