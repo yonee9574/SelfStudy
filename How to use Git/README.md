@@ -31,7 +31,17 @@ Origin은 내가 깃을 사용할 때에는 어떤 리모트 서버에 변경 �
 
 # **깃 업로드 방법**
 
-토이프로젝트 하던 중 오류발견으로 수정점검중...
+1. git hub 에서 repository 생성
+2. git clone "https://github.com/사용자 아이디/레포지터리 이름.git"
+3. clone 으로 생긴 repository 폴더에 작업 파일 삽입 하거나 
+   작업
+4. (작업 후 , 파일 삽입 후)  git pull " remote name "  " branch name"
+   으로 작업 간에 변경 사항이 있었는지 확인 
+5. git status 로 변경이력이 있는지 추가할 파일이 있는지  확인 
+6. git add .  / git add " 파일명 " / git commit -am "message" 등(택 1) 을 입력해 파일 커밋준비상태 만들어주기
+7. git commit -m "설명" 입력하여 변경사항 기입
+8. git remote 하여 remote name 확인 후 
+9. git push "remote name" "branch"
 
 # 오류 해결 1
 
@@ -82,7 +92,7 @@ https://velog.io/@kimiszero/github-src-refspec-master-does-not-match-any-%ED%95%
 
 ## 오류 해결 방법
 
-1. epository 생성
+1. repository 생성
 2. git clone "repository url"
 3. repository 폴더 안 파일 넣기
 4. git status 로 확인
