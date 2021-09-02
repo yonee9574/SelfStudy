@@ -6,7 +6,8 @@
 
 웹은 인터넷에 연결된 사용자들이 서로 정보를 공유 할 수 있는 서비스
 
-![image-20210902023153834](https://github.com/yonee9574/save-image-repo.git./img/image-20210902023153834.png)
+![image-20210902023153834](https://user-images.githubusercontent.com/81904356/131886309-0f0fcb3b-76c7-4fb7-bf34-ef8a87e4a450.png)
+
 
 인터넷은 클라이언트(client) 와 서버(server) 사이를 오가며 동작
 
