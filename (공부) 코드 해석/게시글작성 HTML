@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<title>자유게시판 글작성</title>
+<body>
+<!-- 게시글 작성하는 페이지 입니다.
+게시글을 작성할려면 먼저 게시글 작성 버튼이 있어야한다.
+게시글작성하는 곳에는 제목,내용,텍스트에디터, 등이 있다.
+글을 다적으면 확인을 눌러 글을 올린다.
+글을 적기 싫으면 취소버튼을 눌러 나간다.
+ -->
+<h1>게시글작성</h1>
+<table>
+  <tr>
+    <th>제목</th>
+    <td><input type="text" id="title" name="title"/></td>
+  </tr>
+  <tr>
+    <th>작성자</th>
+    <td><input type="text" id="writer" name="writer"/></td>
+  </tr>
+  <tr>
+    <th>내용</th>
+    <td>
+      <textarea type="text" id="contents" name="contents"></textarea>
+    </td>
+  </tr>
+</table>
+<div style="width:100%; text-align: right;">
+  <button onclick="window.history.back()">취소</button>
+  <button onclick="save()">저장</button>
+</div>
+</body>
+
+<script>
+  /* 저장을 할것이냐 물어본다. 
+  저장을 한다면 저장이 되어 글이 올라가고 
+  안한다고 하면 그자리에 머문다 
+  로컬 스토리지에 콘텐츠라는 이름으로 무언가를 올린다 그것을 
+  어떻게 하는지는 모르겠다.
+  콘텐츠가 로컬스토리지에서 가져오다가 상황이 발생하였을 경우
+  그때는 어떤값이 의도적으로 비어있음음을 표현하고 연산에서는 거짓으로 
+  취급한다
+   */
+  function save() {
+    if (!confirm('저장하시겠습니까?')) {
+      return;
+    }
+    var contents;
+      try {
+        contents = JSON.parse(localStorage.getItem("contents"));
+      } catch (e) {
+        contents = null;
+      }
+
+    if (!contents) {
+      contents = [];
+    }
+
+    var title = document.getElementById('title').value;
+    var writer = document.getElementById('writer').value;
+    var content = document.getElementById('contents').value;
+    contents.push({no:contents.length+1
+      , title:title
+      , writer:writer
+      , contents:content
+      , write_date:new Date()});
+    localStorage.setItem("contents", JSON.stringify(contents));
+/* 무언가를 저장을 하는것을 물어보고 승인이나면 저문구가 출력이 된다. */
+    alert('저장되었습니다.');
+    location.href = 'list.html';
+  }
+</script>
+</html>
