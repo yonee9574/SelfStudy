@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>드롭다운 목록과 텍스트 영역 추가하기</title>
+</head>
+<body>
+    <fieldset>
+        <legend>사용자 정보</legend>
+            <li>
+                <label for="uid">아이디</label>
+                <input type="text" id="uid" required>
+            </li>
+            <li>
+                <label for="umail">이메일</label>
+                <input type="umail" id="umail" required>
+            </li>
+            <li>
+                <label for="pwd1">비밀번호</label>
+                <input type="password" id="pwd1" required>
+            </li>
+            <li>
+                <label for="pwd2">비밀번호 확인</label>
+                <input type="password" id="pwd2" required>
+            </li>
+            <li>
+                <label for="path">가입 경로</label>
+                <select id="path">
+                    <option value="blog">블로그</option>
+                    <option value="search">검색</option>
+                    <option value="sns">SNS</option>
+                    <option value="etc">기타</option>
+                </select>
+            </li>
+            <li>
+                <label for="memo">메모</label>
+                <textarea style="resize: none;"id="memo" cols="40" row="4"></textarea>
+            </li>
+    </fieldset>
+    <fieldset>
+        <legend>이벤트와 새로운 소식</legend>
+        <input type="radio" name="mailing" id="mailing_y" checked>
+        <label for="mailing_y">메일 수신</label>
+        <input type="radio" name="mailing" id="mailing_n">
+        <label for="mailing_n">메일 수신 안 함</label>
+    </fieldset>
+</body>
+</html>

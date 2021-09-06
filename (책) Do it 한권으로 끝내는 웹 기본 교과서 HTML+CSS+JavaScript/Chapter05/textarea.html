@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>텍스트를 여러 줄 입력하기</title>
+</head>
+<body>
+    <fieldset>
+        <legend>배송 정보</legend>
+        <ul>
+            <label for="name">이름</label>
+            <input type="text" id="name" required>
+        </ul>
+        <ul>
+            <label for="adress">배송 주소</label>
+            <input type="text" id="adress" required>
+        </ul>
+        <ul>
+            <label for="umail">이메일</label>
+            <input type="email" id="umail" required>
+        </ul>
+        <ul>
+            <label for="phone">연락처</label>
+            <input type="tel" id="phone">
+        </ul>
+        <ul>
+            <label for="d-date">배송 지정</label>
+            <input type="date" id="d-date"><small>(주문일로부터 최소 3일 이후)</small>
+        </ul>
+        <ul>
+            <label for="memo">메모</label>
+            <textarea id="memo" cols="40" rows="4"></textarea>
+        </ul>
+    </fieldset>
+</body>
+</html>
