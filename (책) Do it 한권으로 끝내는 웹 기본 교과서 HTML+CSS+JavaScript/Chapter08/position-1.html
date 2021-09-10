@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>position 속성으로 요소 위치 지정하기</title>
+    <style>
+        #static { position: static;}
+
+        #relative-1 { position: relative; }
+
+        #relative-2 {
+            position: relative;
+            left: 100px;
+            top: -50px;
+        }
+
+        #fixed {
+            width: 100px;
+            height: 100px;
+            background-color: #222;
+            position: fixed;
+            right: 30px;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <p id="static">I don't drink coffee, I take tea, my dear
+        I like my toast done on one side
+        And you can hear it in my accent when I talk
+        I'm an Englishman in New York</p>
+    <p id="relative-1">See me walking down Fifth Avenue
+        A walking cane here at my side
+        I take it everywhere I walk
+        I'm an Englishman in New York</p>
+    <p id="relative-2">Oh, I'm an alien, I'm a legal alien
+        I'm an Englishman in New York
+        Oh, I'm an alien, I'm a legal alien
+        I'm an Englishman in New York</p>
+    <p id="fixed">If "manners maketh man" as someone said
+        He's the hero of the day
+        It takes a man to suffer ignorance and smile
+        Be yourself no matter what they say</p>
+</body>
+</html>
