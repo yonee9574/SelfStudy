@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>앵커 대상에 스타일 적용하기</title>
+    <style>
+        #intro:target {
+            background-color: #0069e0;          /* 배경색을 파란색으로 지정*/
+            color: #fff;                        /* 글자색을 흰색으로 지정*/
+        }
+    </style>
+</head>
+<body>
+    <nav class="navi">
+        <ul>
+            <li><a href="#intro">이용 안내</a></li>
+            <li><a href="#room">객실 소개</a></li>
+            <li><a href="#reservation">예약 방법 및 요금</a></li>
+            <li><a href="ps-2.html">예약하기</a></li>
+        </ul>
+    </nav>
+    <div id="intro" class="contents">
+        <h2>이용 안내</h2>
+    </div>
+    <div id="room" class="contents">
+        <h2>객실 소개</h2>
+    </div>
+    <div id="reservation" class="contents">
+        <h2>예약 방법 및 요금</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>선택된 라디오 버튼의 스타일 적용하기</title>
+    <style>
+        #signup input:checked + label { /* input 요소에 checked 속성이 추가 되었을 때 label 요소의 스타일 */
+            color: red;
+            font-weight: bold;
+        }
+        #signup input[type=text], input[type=tel] {
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            padding: 5px;
+            width: 200px;
+        }
+        #signup input:not([type=radio]) {
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            padding: 5px;
+            width:200px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>객실 형태</legend>
+            <ul>
+                <li>
+                    <input type="radio" name="room" id="basic">
+                    <label for="basic">기본형(최대 2인)</label>
+                </li>
+                <li>
+                    <input type="radio" name="room" id="family">
+                    <label for="family">가족형(최대 8인)</label>
+                </li>
+            </ul>
+    </fieldset>
+</body>
+</html>

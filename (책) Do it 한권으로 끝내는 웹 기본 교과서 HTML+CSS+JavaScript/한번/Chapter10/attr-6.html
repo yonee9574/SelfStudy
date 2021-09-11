@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>파일 확장자에 따라 아이콘 다르게 표시하기</title>
+    <style>
+        a[href $= hwp] { /* 링크 속성값이 hwp로 끝나는 a요소를 찾는 선택자 */
+            background: url(images/hwp_icon.gif) center right no-repeat;
+            padding-right: 25px /* 오른쪽 패딩 지정 */
+        }
+
+        a[href $= xls] { /* 링크 속성값이 xls로 끝나는 a 요소를 찾는 선택자 */
+            background: url(images/excel_icon.gif) center right no-repeat;
+            padding-right: 25px;    /* 오른쪽 패딩 지정 */
+        }
+    </style>
+</head>
+<body>
+    <h3>회사 소개 파일 내려받기</h3>
+    <ul>
+        <li><a href="intro.hwp">hwp 파일</a></li>
+        <li><a href="intro.xls">엑셀 파일</a></li>
+    </ul>
+</body>
+</html>

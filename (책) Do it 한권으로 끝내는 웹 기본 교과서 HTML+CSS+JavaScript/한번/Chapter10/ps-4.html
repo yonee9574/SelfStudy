@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>가상 요소를 사용해 스타일 적용하기</title>
+    <style>
+        li.new::after {
+            content: "NEW!!";
+            font-size: x-small;
+            padding: 2px 4px;
+            margin: 0 10px;
+            border-radius: 2px;
+            background: #f00;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>제품 목록</h1>
+        <ul>
+            <li class="new">제품 A</li>
+            <li>제품 B</li>
+            <li>제품 C</li>
+            <li class="new">제품 D</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>배경 이미지 크기 조절하기</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+            background: url('images/bg4.jpg') no-repeat left top; /* 배경 이미지를 반복하지 않고 왼족 상단에 위치 */
+        }
+        #bg1 { background-size: auto; }         /* 원래 배경 이미지 크기로 표시 */
+        #bg2 { background-size: 200px; }        /* 너비는 200px, 높이는 자동 계산 */
+        #bg3 { background-size: 50%; }          /* 너비는 요소 기준으로 50% 높이는 자동 계산 */
+        #bg4 { background-size: 100% 100%; }    /* 요소의 너비와 높이를 100% 맞춤 */
+        #bg5 { background-size: contain; }      /* 요소의 배경 이미지가 다 보이게 표시 */
+        #bg6 { background-size: cover; }        /* 요소를 완전히 덮도록 배경 이미지 표시 */
+    </style>
+</head>
+<body>
+
+</body>
+</html>

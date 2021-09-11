@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>새 탭으로 열리는 링크에만 아이콘 추가하기</title>
+    <style>
+        a[target = "_blank"] {          /* target 속성값이 _blank인 a 요소를 선택하는 선택자 */
+            padding-right: 30px;        /* 오른쪽에 패딩 지정 */
+            background: url(images/newwindow.png) no-repeat center right; /* 배경 이미지 지정 */
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://html.spec.whatwg.org" target="_blank">HTML</a></li>
+        <li><a href="https://www.w3.org/TR/selectors">CSS Selector Level 3</a></li>
+        <li><a href="https://www.w3.org/TR/css3-mediaqueries">미디어쿼리</a></li>
+    </ul>
+</body>
+</html>

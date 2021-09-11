@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>원형 그러데이션의 색상 중지점 지정하기</title>
+    <style>
+        .grad1 {
+            background: skyblue; /* CSS3를 지원하지 않는 웹 브라우저용 */
+            background: radial-gradient(yellow, white, orange); /* 색상 중지점 지정 */
+        }
+        .grad2 {
+            background: skyblue;
+            background: radial-gradient(yellow, white 10%, orange 60%); /* 색상 중지점의 위치까지 지정 */
+        }
+    </style>
+</head>
+<body>
+    <div class="grad1">1</div>
+    <div class="grad2">1</div>
+</body>
+</html>

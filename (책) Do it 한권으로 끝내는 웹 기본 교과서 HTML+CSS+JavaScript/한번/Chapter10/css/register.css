@@ -1,0 +1,5 @@
+#signup label {
+    float: left;        /* 왼쪽으로 배치*/
+    font-size: 13px;
+    width: 110px        /* 너비를 110px로 지정 */
+}
