@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>rotate() 함수를 사용해 3차원에서 회전하기</title>
+    <style>
+        .origin {
+            perspective: 200px; /* 원근감 추가 */
+        }
+        .origin > div {
+            transition: all 3s; /* 3초 동안 회전하도록 트랜지션 적용 */
+        }
+        #rotatex:hover { transform: rotateX(55deg); }                           /* x축으로 55도 회전 */
+        #rotatey:hover { transform: rotatey(55deg); }                           /* y축으로 55도 회전 */
+        #rotatez:hover { transform: rotateZ(55deg); }                           /* z축으로 55도 회전 */
+        #rotatexyz:hover { transform: rotate3d(2.5, 1.2, -1.5, 55deg); }        /* x,y,z 축에 방향 백터를 지정하고 55도 지정*/
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div id="rotatex">1</div>
+    </div>
+    <div class="origin">
+        <div id="rotatey">2</div>
+    </div>
+    <div class="origin">
+        <div id="rotatez">3</div>
+    </div>
+    <div class="origin">
+        <div id="rotatexyz">4</div>
+    </div>
+</body>
+</html>

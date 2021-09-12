@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>그리드 라인을 사용해서 항복 배치하기 - 칼럼,줄 지정</title>
+    <style>
+        #wrapper {
+            width: 700px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);      /* 칼럼은 1ft씩 3개 */
+            grid-template-rows: repeat(3, 100px);       /* 줄은 100px씩 3개 */
+        }
+        .box1 {
+            background-color: #3689ff;
+            grid-column: 1/4;
+        }
+        .box2 {
+            background-color: #00cf12;
+            grid-row:2/4;
+        }
+        .box3 {
+            background-color: #ff9019;
+            grid-column: 2/4;
+            grid-row-start: 2;
+        }
+        .box4 {
+            background-color: #ffd000;
+            grid-column-start: 3;
+            grid-row-start: 3;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper"></div>
+    <div class="box box1">box1</div>
+    <div class="box box2">box2</div>
+    <div class="box box3">box3</div>
+    <div class="box box4">box4</div>
+</body>
+</html>

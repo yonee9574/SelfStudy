@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>트랜지션 대상과 진행 시간 지정하기</title>
+    <style>
+        .box {
+            transition-property: width, height; /* 트랜지션 대상 - 너비, 높이 */
+            transition-duration: 2s, 1s; /* 트랜지션 시간 - 2초, 1초*/
+            transition: 2s ease-in;
+        }
+        .box:hover {
+            width: 200px;
+            height: 120px;
+            background-color: #f50;
+            transform: rotate(270 deg);
+        }
+    </style>
+</head>
+<body>
+
+</body>
+</html>

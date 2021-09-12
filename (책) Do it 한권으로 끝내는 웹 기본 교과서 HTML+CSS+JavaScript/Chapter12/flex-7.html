@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>여러 줄일 때 교차축에서 플렉스 항목 간의 간격 지정하기</title>
+    <style>
+        .container {
+            display: flex;                          /* 플렉스 컨테이너 지정 */
+            flex-flow: row wrap;                    /* 왼쪽에서 오른쪽, 여러 줄 표시 */
+        }
+        #opt1 {align-content: flex-start;}          /* 교차축 시작점 기준 */
+        #opt2 {align-content: flex-end;}            /* 교차축 끝점 기준 */
+        #opt3 {align-content: center;}              /* 교차축 중앙 기준 */
+        #opt4 {align-content: space-between;}       /* 시작점과 끝점에 배치한 뒤 중간 항목 */
+        #opt5 {align-content: space-around;}        /* 전체 항목을 같은 간격으로 배치 */
+        #opt6 {align-content: stretch;}             /* 항목을 늘려 교차축에 가득 차게 배치 */
+    </style>
+</head>
+<body>
+
+</body>
+</html>

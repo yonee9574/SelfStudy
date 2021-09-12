@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>이미지 회전하며 원근감 주기</title>
+    <style>
+        .rotatex:hover { transform: rotateX(50deg); }   /* x축으로 50도 회전 */
+        #pers { perspective: 300px; } /* 원근감 추가 */
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div class="rotatex">
+            <img src="images/sunset.jpg">
+        </div>
+    </div>
+    <div class="origin" id="pers">
+        <div class="rotatex">
+            <img src="images/sunset.jpg">
+        </div>
+    </div>
+</body>
+</html>

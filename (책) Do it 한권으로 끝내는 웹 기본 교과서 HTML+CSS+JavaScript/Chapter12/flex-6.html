@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>플렉스 박스에서 특정 항목만 정렬 방법 지정하기</title>
+    <style>
+        .container {
+            display: flex;                   /* 플렉스 컨테이너 지정 */   
+            align-items: center;             /* 교차축의 중앙에 배치 */ 
+        }
+        #box1 { align-self: flex-start; }       /* 교차축의 시작점에 배치 */
+        #box3 { align-self: stretch; }          /* 교차축에 가득 차게 늘림 */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"><p>1</p></div>
+        <div class="box"><p>2</p></div>
+        <div class="box" id="box3"><p>3</p></div>
+        <div class="box"><p>4</p></div>
+    </div>
+</body>
+</html>
