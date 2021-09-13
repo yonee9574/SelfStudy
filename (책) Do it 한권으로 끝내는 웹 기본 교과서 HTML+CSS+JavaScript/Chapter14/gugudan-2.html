@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>스타일 시트를 반영한 구구단</title>
+    <link href="css/gugudan.css" type="text/css" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>구구단</h1>
+    <script>
+        var i, j;
+        
+        for(i = 1; i <= 9; i++) {
+            document.write("<div>");
+            document.write("<h3>" + i + "단</h3>");
+            for(j = 1; j <= 9; j++) {
+                document.write(i + " X " + j + " = " + i*j + "<br>");
+            }
+            document.write("</div>");
+        }
+    </script>
+</body>
+</html>

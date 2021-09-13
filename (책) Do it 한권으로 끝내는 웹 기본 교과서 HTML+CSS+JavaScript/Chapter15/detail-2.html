@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>버튼 클릭해서 설명 글 열고 닫기 - DOM 이벤트 처리기 연결</title>
+</head>
+<body>
+    <div>
+        <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80">
+        <button class="over" id="open">상세 설명 보기</button>
+        <div id="desc" class="detail">
+            <h4>등심붓꽃</h4>
+                <p>북아메리카 원산으로 ..... 번식한다. </p>
+            <button id="close">상세 설명 닫기</button>
+        </div>
+    </div>
+    <script>
+        document.querySelector('#open').onclick = function() {
+            document.querySelector('#desc').style.display = "block";
+            document.querySelector('#open').style.display = "none";
+        }
+        document.querySelector('#close').onclick = function() {
+            document.querySelector('#desc').style.display = "none";
+            document.querySelector('#open').style.display = "block";
+        }
+    </script>
+</body>
+</html>

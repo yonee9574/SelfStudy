@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>var 예약어로 지역 변수 선언하기</title>
+</head>
+<body>
+    <script>
+        function addNumber() {
+            var sum = 10 + 20;      // 지역 변수 선언
+        }
+        addNumber();
+        console.log(sum); // 지역 변수를 사용
+
+        // 당연히 에러가 남 변수 sumn이 정의가 되지 않았기 떄문이다!..
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>버튼 클릭해서 글자색 바꾸기</title>
+</head>
+<body>
+    <button id="change">글자색 바꾸기</button>
+    <p>Reprehenderit .... laborum quis.</p>
+    <!-- 생략 -->
+    <script>
+        // 방법 1 : 웹 요소를 변수로 지정 & 미리 만든 함수 사용
+        var changeBttn = document.querySelector("#change");
+        changeBttn.onclick = changeColor;
+
+        function changeColor() {
+            document.querySelector("p").style.color = "#f00";
+        }
+    </script>
+</body>
+</html>

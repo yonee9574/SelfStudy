@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>while 문으로 팩토리얼 만들기</title>
+    <link href="css/gugudan.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>while 문을 사용한 팩토리얼 계산</h1>
+    <script>
+        var n = prompt("숫자를 입력하세요.");
+        var msg = "";
+
+        if(n !== null) {     // 취소 버튼을 누르지 않았는지 체크
+            var nFact = 1;  // 결괏값
+            var i = 1;      // 카운터
+
+            while(i <= n) {
+                nFact *= i;
+                i++;
+            }
+            msg = n + "! = " + nFact;       // 결괏값을 표시할 문자열
+        }
+        else
+            msg = "값을 입력하지 않았습니다.";
+        
+        document.write(msg); //결과 표시
+    </script>
+</body>
+</html>
