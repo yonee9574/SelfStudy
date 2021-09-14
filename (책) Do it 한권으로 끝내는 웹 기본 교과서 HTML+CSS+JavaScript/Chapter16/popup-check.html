@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>팝업이 차단된 브라우저의 알림 창 표시하기</title>
+</head>
+<body>
+    <script>
+        function openPopup() {
+            var newWin = window.open("notice.html", "pop", "width=500, height=400");
+            if(newWin == null) {        // 팝업이 차단되어 있으면 알림 창 표시
+                alert("팝업이 차단되어 있습니다. 팝업 차단을 해제해 주세요.")
+            }
+            newWin.moveBy(100,100);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>이미지 속성 가져오기</title>
+</head>
+<body>
+    <div id="prod-pic">
+        <img src="images/coffee-pink.jpg" alt="에디오피아 게뎁" id="cup" width="200" height="200" onclick="displaySrc()">
+    </div>
+
+    <script>
+        function displaySrc() {
+            var cup = document.querySelector("#cup");       // id = "cup" 인 요소에 접근하기
+            alert("이미지 소스" + cup.getAttribute("src")); // cup 속성을 알림 창에 표시
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>innerText, innerHTML 프로퍼티 사용하기</title>
+</head>
+<body>
+    <button onclick="inntext()">innerText로 표시하기</button>
+    <button onclick="innhtml()">innerHTML로 표시하기</button>
+    <h1>현재 시각: </h1>
+    <div id="current">1</div>
+
+    <script>
+        var now = new Date();
+
+        function inntext() {
+            document.getElementById("current").innerText = now;
+        }
+        
+        function innhtml() {
+            document.getElementById("current").innerHTML = "<em>" + now + "</em>";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>splice() 메서드의 인수가 1개인 경우 요소 삭제하기</title>
+</head>
+<body>
+    <script>
+        var numbers = [1,2,3,4,5];
+        var study = ["html","css","web","jquery"];
+        var newNumbers = numbers.splice(2);
+        var newStudy = study.splice(2, 1);
+        document.write("반환된 배열: " + newNumbers + "<br>");
+        document.write("변경된 배열: " + numbers + "<br>");
+        document.write("반환된 배열: " + newStudy + "<br>");
+        document.write("변경된 배열: " + study);
+    </script>
+</body>
+</html>
