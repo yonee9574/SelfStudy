@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>마우스 포인터를 올리면 이미지 바꾸기</title>
+</head>
+<body>
+    <img src="https://images.unsplash.com/photo-1551456393-2ab5dbdf7747?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3VwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" id="cover">
+
+    <script>
+        var cover = document.getElementById("cover");
+        cover.addEventListener("mouseover" , changePic);    // 포인터를 올리면 changePic() 실행
+        cover.addEventListener("mouseout" , originPic);     // 포인터를 내리면 originPic() 실행
+
+        function changePic() {
+            cover.src = "https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGN1cHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60";
+            // 이미지 경로를 easys-2.jpg로 바꿈
+            cover.src = "https://images.unsplash.com/photo-1551456393-2ab5dbdf7747?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3VwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60";
+            // 이미지 경로를 easy-1.jpg로 바꿈
+        }
+    </script>
+</body>
+</html>
