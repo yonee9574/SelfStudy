@@ -145,4 +145,59 @@ p 태그를 마감하기 전 " id = 아이디" 형식으로 지정
 
 부모와 자식 태그가 복합적으로 쓰인다~ 라고 해서 붙여진 이름이라 생각하면 쉬울듯 하다.
 
-서로의 관계와 위치를 유용하게 결합하는 방식을 제공
+즉 서로의 관계와 위치를 유용하게 결합하는 방식을 제공
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel"stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>
+            heading
+        </h1>
+        <div>
+            <p>
+                child 1
+            </p>
+            <p>
+                child 2
+            </p>
+        </div>
+        <div>
+            <p>
+                grandchild
+            </p>
+        </div>
+        <p>
+            neighborhood child
+        </p>
+    </body>
+</html>
+```
+
+
+
+코드를 보면 div 태그의 자식으로 child 1 child 2 를 만들고 만든 div 태그 안에 또 하나의 div 태그와 자식  grandchild를 만든다.
+
+css 선택자로 지정할 때 div 다음 띄어쓰기 후 p 를 적었고 이때 띄어쓰기는 자손을 가리킨다. 
+
+결론적으로 div 안에 있는 자식 p에 스타일을 적용한다.
+
+------
+
+### 요약
+
+1.  CSS 는 Cascading Style Sheets 의 약자 / 사용자에게 보여지는 페이지를 꾸미는 것
+   HTML이 정보를 표현한닫고 하면 CSS는 HTML 문서를 시각적으로 꾸미는 역할
+2.  font-size는 글씨 크기를 조절하는 CSS 속성
+3.  text-align은 정렬 속성으로 left,right,center,justifty 값을 쓸 수 있다.
+4. CSS 선택자는 5가지 유형이 있다.
+
+- 전체 선택ㅈ자는 모든 HTML 문서를 선택해 스타일을 적용
+- 유형 태그 선택자는 특정 유형(태그)를 지정해 작성하는 방식으로 타입 셀렉터라고도 한다.
+- 아이디 선택자는 해당 태그의 고유한 이름에 따라 스타일을 적용
+- 클래스 선택자는 class의 요소를 지정하는 선택자
+- 복합 선택자는 서로의 관계와 위치를 유용하게 결합하는 방식을 제공
+  서로의 관계가 의미하는것 ( 자손 , 자식 ,입접형제 , 일반형제 선택자)
