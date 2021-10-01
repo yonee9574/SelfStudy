@@ -62,3 +62,6 @@ async function predict() {
             labelContainer.childNodes[0].innerHTML = "알 수 없음"
         }
     }
+    
+    document.getElementById("test").style.display="none";
+    document.getElementById("test").style.display="block";
