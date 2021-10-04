@@ -4,7 +4,7 @@
 
 ### 롬북을 쓰는 이유
 
-모델 Class(VO, DTO, Entity)를 만들 때 생성자, 접근자, 설정자, toString() 등 매번 만들어야 한다.
+모델 Class(VO, DTO, Entity)를 만들 때 생성자, 접근자, 설정자, toString() 등 매번 만들어야 한다
 
 lombok을 사용하면 @Getter, @Setter 같은 어노테이션만 붙이면 자동으로 해줘 편하고 좋기 때문에 사용한다고 한다.
 
