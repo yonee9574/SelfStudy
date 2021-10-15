@@ -1,0 +1,11 @@
+* {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: x-large;
+    background-color: rgb(207, 220, 248);
+}
+
+table,th,td {
+    margin: auto;
+    text-align: center;
+    border: 2px solid #000;
+}
