@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Off-canvas One Page Scroll Navigation Example</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+</head>
+<body>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- 메뉴 Bar 구성 -->
+    <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- 메뉴 Bar 구성 END -->
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+
+ <!-- 페이지 구성 -->
+
+    <!-- Main -->
+    <div class="content main" id="main">
+        <h1 class="main_header">Who is Yeon?</h1>
+        <div class="main_div bounce-in-top">
+            <p>1995년 7월 4일 부산에서 태어났으며</p>
+            <p>날 때 부터 기계와 컴퓨터에 관심이 많았다.</p>
+            <p>초등학교 시절 불우한 가정사를 토대로 많은 고생을 경험 하였으며</p>
+            <p>훌륭한 부모님이 가정을 다시 일으켜 세우셔서 지금까지의 나로 성장할 수 있었다.</p>
+            <p>중학교 1학년 때 순천으로 전학을 와서 지금까지 생활을 하였으며</p>
+            <p>청소년시절과 성인 시절때 꿈 없이 하루하루 지나가기를 기다리는 사람이였지만</p>
+            <p>광주대학교에서 순천대학교로 편입을 권유받고 편입을 하여</p>
+            <p>소중한 멘토를 만나 지금까지의 나로 성장할 수 있었다.</p>
+        </div>
+        <img class="main_img bounce-in-top" src="image/yeon.jpg">
+    </div>
+    <!-- Main END -->
+
+    <!-- Skill -->
+    <div class="content skill" id="skill">
+        <div class="container-fluid" id="skills">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="skills-text">
+                  <h1 class="skills-title underline">SKILLS</h1>
+                  <dl class="skills-list">
+                    <dt class="skill-name">JAVA</dt>
+                    <dd class="skill-percent skill-percent-java" data-percent="10%"></dd>
+                    <dt class="skill-name">Python</dt>
+                    <dd class="skill-percent skill-percent-python" data-percent="10%"></dd>
+                    <dt class="skill-name">HTML</dt>
+                    <dd class="skill-percent skill-percent-html" data-percent="50%"></dd>
+                    <dt class="skill-name">CSS</dt>
+                    <dd class="skill-percent skill-percent-css" data-percent="35%"></dd>
+                    <dt class="skill-name">Javascript</dt>
+                    <dd class="skill-percent skill-percent-javascript" data-percent="5%"></dd>
+                    <dt class="skill-name">GIT</dt>
+                    <dd class="skill-percent skill-percent-git" data-percent="50%"></dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Skill END -->
+    <!-- 프로젝트 -->
+    <div class="content project" id="project">
+        <figure>
+            <img src="image/GSITM.png">
+            <figcaption>
+                <a href="https://github.com/yonee9574/TeamProject/tree/master" target='_blank'><h3>GS ITM Project</h3></a>
+                <p>Team Project</p>
+            </figcaption>
+        </figure>
+        
+        <figure>
+            <img src="image/GSITM.png">
+            <figcaption>
+                <a href="https://github.com/yonee9574/PersonalProject" target='_blank'><h3>GS ITM Project</h3></a>
+                <p>Personal Project</p>
+            </figcaption>
+        </figure>
+        
+
+        <figure>
+            <img src="image/scnu.png">
+            <figcaption>
+                <a href="https://suspicious-stonebraker-2cf5c3.netlify.app/" target='_blank'><h3>Imagineer Project</h3></a>
+                <p>TeamProject</p>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="image/JSP.png">
+            <figcaption>
+                <a href="https://github.com/yonee9574/JspBoard-Toy" target='_blank'><h3>JSP Board</h3></a>
+                <p>Personal Project</p>
+            </figcaption>
+        </figure>
+                
+        <figure>
+            <img src="image/html.png">
+            <figcaption>
+                <a href="https://github.com/yonee9574/Html-Toy" target='_blank'><h3>HTML CSS Toy</h3></a>
+                <p>Personal Project</p>
+            </figcaption>
+        </figure>
+    </div>
+    <!-- 프로젝트 END -->
+<!-- 페이지 구성 END -->
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- 메뉴 구성 -->
+    <div class="menu">
+        <span class="btn btn-close">&times;</span>
+        <ul>
+            <li><a href="#main">■ Who is Yeon?</a></li>
+            <li><a href="#skill">■ Skill</a></li>
+            <li><a href="#project">■ Project</a></li>
+        </ul>
+    </div>
+    <!-- 메뉴 구성 END -->
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- 내부 스크립트 (전반적인 메인페이지 구성) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    <!-- 내부 스크립트 (전반적인 메인페이지 구성) END -->
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+</body>
+</html>

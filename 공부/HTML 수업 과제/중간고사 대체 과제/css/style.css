@@ -1,0 +1,446 @@
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 네비메뉴 */
+#TopMenu {           
+        height: 30px;
+        width: 850px;
+}
+#TopMenu ul li {                      
+        list-style: none;          
+        color: white;              
+        background-color: #2d2d2d;  
+        float: left;           
+        line-height: 50px;     
+        vertical-align: middle;
+        text-align: center;    
+}
+#TopMenu .MenuLink {                               
+        text-decoration:none;                      
+        color: white;                              
+        display: block;                            
+        width: 150px;                              
+        font-size: 15px;                           
+        font-weight: bold;                         
+        font-family: "Trebuchet MS", Dotum, Arial; 
+}
+#TopMenu .MenuLink:hover {           
+        color: red;                  
+        background-color: #4d4d4d;   
+}
+/* 네비메뉴 End */
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 스킬 바 */
+
+#skills {
+  background: #1C3553;
+  padding: 20px 15px 75px 15px;
+  color: #fff;
+}
+  
+.skills-text {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1c3553;
+  font-size: 20px;
+}
+  
+.skills-title {
+  display: block;
+  margin-bottom: 2rem;
+}
+  
+.skills-title.underline:before {
+  width: 40px;
+}
+  
+.skills-list {
+  overflow: hidden;
+  position: relative;
+  z-index: 10
+}
+  
+.skill-name:after {
+  background-color: #999797;
+  content: '';
+  display: block;
+  height:1rem;
+  position: relative;
+  top: 3px;
+  /*top: 1rem;*/
+  width: 100%;
+}
+  
+.skill-percent {
+  font-size: 0;
+  height: 1rem;
+  position: relative;
+  top: -.8rem;
+  transition: 3s linear;
+  width: 0;
+}
+  
+.skill-percent-html {
+  background-color: #FF5C00;
+}
+
+.skill-percent-css {
+  background-color: #00B1DB;
+}
+
+.skill-percent-java {
+  background-color: #FFC100;
+}
+
+.skill-percent-javascript {
+  background-color: #FF768E;
+}
+
+.skill-percent-python {
+  background-color: #0073b0;
+}
+
+.skill-percent-git {
+  background-color: #ff5c00;
+}
+  
+.underline {
+  display: inline-block;
+  position: relative;
+}
+  
+.underline:before {
+  background-color: #fff;
+  bottom: -15px;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 110%;
+}
+
+/* 스킬 바 END */
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+/*  전반적인 메인 CSS 구성 */
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  transition: all 0.2s;
+}
+
+.burger {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 98;
+}
+
+.burger span {
+  height: 2px;
+  width: 20px;
+  background: black;
+  margin: 2px;
+}
+
+.burger:hover {
+  cursor: pointer;
+}
+
+.burger:hover span:first-child {
+  width: 10px;
+  transform: rotate(33deg) translate(6px, 0px) ;
+}
+
+.burger:hover span:last-child {
+  width: 10px;
+  transform: rotate(-33deg) translate(6px, 0px);
+}
+
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.main {
+    background: #C0392B;
+}
+
+.skill {
+    background: #1C3553;
+}
+
+.project {
+    background: #F39C12;
+}
+
+.menu {
+  width: 20%;
+  height: 100vh;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: all 0.4s;
+}
+
+.menu_active{
+  transform: translateX(0%);
+  transition: all 0.4s;
+}
+
+.menu .btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 20px;
+  height: 25px;
+  width: 25px;
+  color: purple;
+  padding: 0;
+  border: 0;
+}
+
+.menu .btn-close:hover {
+  color: purple;
+  transform: rotate(180deg);
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: purple;
+}
+/* 전반적인 메인 CSS 구성 END */
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Main Css */
+
+.main_img {
+    width: 450px;
+    height: 600px;
+    margin-left: 800px;
+}
+
+.main_header {
+    font-size: 100px;
+    color: #000000;
+    position: absolute;
+    left: 650px;
+    top: 30px;
+}
+
+.main_div {
+    position: absolute;
+    left: 450px;
+}
+
+.bounce-in-top {
+	-webkit-animation: bounce-in-top 2.5s both;
+	        animation: bounce-in-top 2.5s both;
+}
+
+@-webkit-keyframes bounce-in-top {
+  0% {
+    -webkit-transform: translateY(-500px);
+    transform: translateY(-500px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  38% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+
+  55% {
+    -webkit-transform: translateY(-65px);
+    transform: translateY(-65px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  72% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  81% {
+    -webkit-transform: translateY(-28px);
+    transform: translateY(-28px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  90% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  95% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+  @keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+/* Main Css END */
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 프로젝트 */
+figure {
+ float: left;
+ height: 6em;
+ margin: 1.5em;
+ width: 12em;
+ -webkit-transform: perspective(500);
+ -webkit-transform-style: preserve-3d;
+ -webkit-transition: .5s;
+}
+    
+figure:hover {
+  -webkit-transform: perspective(500) rotateX(90deg) translateY(-3em) translateZ(3em);
+}
+
+img {
+  background-color: #222;
+  box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+  display: block;
+  height: 100%;
+  -webkit-transition: .5s;
+}
+
+figure:hover img {
+  box-shadow: none;
+}
+    
+figcaption {
+  background-color: #222;
+  color: #fff;
+  padding: 1.5em;
+  -webkit-transform: rotateX(-90deg);
+  -webkit-transform-origin: 100% 0;
+  -webkit-transition: .5s;
+}
+
+figure:hover figcaption {
+  box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+}
+    
+h3 {
+  font-weight: bold;
+}
+
+/* 프로젝트 END */
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
